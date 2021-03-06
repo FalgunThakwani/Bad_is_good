@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+@font-face {
+    font-family: 'Hacked';
+    src: url('Hacked-KerX.ttf') format('truetype');
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+.background {
+    background-image: url("background1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+.top {
+    text-align: center;
+    opacity: 70%;
+    font-family: 'Hacked', cursive;
+    font-size: 40px;
+    background: #7b4397;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3333cc, #ff3399);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3333cc, #ff3399);
+    width: 500px;
+
+
+
+
+
+}
+
+.middle {
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    background: linear-gradient(to bottom, #3333cc 0%, #ff3399 100%);
+    color:black;
+    opacity: 80%;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.bottom {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    font-family: 'Major Mono Display', monospace;
+    font-size: 15px;
+
+
+}
